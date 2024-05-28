@@ -12,11 +12,6 @@ public class User{
     }
 
     public void save(){
-        Persister persister = new Persister(this);
-        persister.save();
-    }
-
-    public void report(){
-        System.out.println("Report for user: " + name);
+        System.out.println("Save user: " + name);
     }
 }
